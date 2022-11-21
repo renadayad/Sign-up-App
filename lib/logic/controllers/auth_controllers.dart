@@ -14,7 +14,7 @@ class AuthController extends GetxController{
   final GetStorage authBox=GetStorage();
 
 
-  void resetPass(String email) async{
+  void resetPassword(String email) async{
 
     try {
       await auth.sendPasswordResetEmail(email: email);
