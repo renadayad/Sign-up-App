@@ -43,7 +43,7 @@ class LogOutScreen extends StatelessWidget {
               buttonColor: Colors.black,
             );
           },
-          splashColor: Colors.red,
+          splashColor: Colors.black,
           borderRadius: BorderRadius.circular(12),
           customBorder: const StadiumBorder(),
           child: Row(
@@ -51,7 +51,7 @@ class LogOutScreen extends StatelessWidget {
               Container(
                 padding: const EdgeInsets.all(6),
                 decoration: const BoxDecoration(
-                  shape: BoxShape.circle,
+                  shape: BoxShape.rectangle,
                   color: Colors.black,
                 ),
                 child: const Icon(

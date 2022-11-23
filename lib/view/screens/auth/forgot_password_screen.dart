@@ -1,8 +1,12 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:signup/view/widgets/cutsom_text.dart';
 
 import '../../../logic/controllers/auth_controllers.dart';
+import '../../../utils/myString.dart';
+import '../../widgets/auth_button.dart';
+import '../../widgets/text_form_feild.dart';
 
 class ForgotPasswordScreen extends StatelessWidget {
    ForgotPasswordScreen({super.key});
@@ -41,14 +45,18 @@ class ForgotPasswordScreen extends StatelessWidget {
                   icon: Icon(Icons.close_rounded, color: Colors.white,),),
               ),
               const SizedBox(height: 20,),
-              Text("If you want to recover your account, then please provide your email below ..",
-                textAlign: TextAlign.center,
-                style:TextStyle(color:  Get.isDarkMode ?Colors.white :Colors.black ) ,),
-              const SizedBox(height: 30,),
-              Image.asset("assets/images/forgetpass copy.png" ,width: 250, ),
-              const SizedBox(height: 50,),
+              Text("Provide your account's email  for which you want to reset your password",
+                textAlign: TextAlign.right,
+                style:TextStyle(color:  Colors.black ) ,),
 
-              TextFormField(
+              const SizedBox(height: 8,),
+              Text("Enter your E-mail",
+                textAlign: TextAlign.right,
+                style:TextStyle(color:  Colors.black ) ,),
+              const SizedBox(height: 20,),
+
+
+              AuthTextFormField(
                 controller: emailController,
                 obscureText: false,
                 validator: (value){
@@ -58,7 +66,6 @@ class ForgotPasswordScreen extends StatelessWidget {
                     return null;
                   }
                 },
-                prefixIcon: Image.asset("assets/images/email.png",color: mainColor,),
                 suffixIcon: const Text(""),
                 hintText: 'Email',
 
@@ -67,7 +74,7 @@ class ForgotPasswordScreen extends StatelessWidget {
 
               GetBuilder<AuthController>(builder: (_){
 
-                return AuthButton(text: "Reset Password", onPressed: (){
+                return AuthButton(text: "Request reset password link", onPressed: (){
 
                   if (formKey.currentState!.validate()) {
                     String email = emailController.text.trim();
@@ -75,7 +82,13 @@ class ForgotPasswordScreen extends StatelessWidget {
                   }
 
                 });
-              })
+              }),
+
+              TextButton(onPressed: (){
+                Get.back();
+              }, child: CustomText(
+                text: "Cancel", fontWeight: FontWeight.w500, fontSize: 13,color: Colors.black,textDecoration: TextDecoration.underline,
+              ))
 
 
 

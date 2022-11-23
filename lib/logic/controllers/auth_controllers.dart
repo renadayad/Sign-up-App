@@ -11,6 +11,8 @@ class AuthController extends GetxController{
   var displayName="".obs;
   var displayUserPic="".obs;
   var isSignedIn=false;
+  var isSignedIan=false;
+
   final GetStorage authBox=GetStorage();
 
 
