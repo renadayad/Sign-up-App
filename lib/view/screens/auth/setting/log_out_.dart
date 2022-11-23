@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../../../logic/controllers/auth_controllers.dart';
+import '../../../../logic/controllers/auth_controllers.dart';
 
 
 
@@ -54,7 +54,7 @@ class LogOut extends StatelessWidget {
                 "Logout",
                 style: TextStyle(
                     fontSize: 22,
-                    fontWeight: FontWeight.w500,
+                    fontWeight: FontWeight.w300,
                     color: Colors.red),
               ),
               Container(
