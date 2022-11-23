@@ -9,6 +9,7 @@ class AuthController extends GetxController{
   FirebaseAuth auth = FirebaseAuth.instance;
   var googleSignIn=GoogleSignIn();
   var displayName="".obs;
+  var displayEmail="".obs;
   var displayUserPic="".obs;
   var isSignedIn=false;
   var isSignedIan=false;
