@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:signup/view/screens/auth/log_out_screen.dart';
+import 'package:signup/view/screens/auth/log_out_.dart';
 
 import '../../logic/controllers/auth_controllers.dart';
 import '../widgets/cutsom_text.dart';
@@ -36,7 +36,7 @@ class HomeScreen extends StatelessWidget {
                     color:  Colors.black,
                   ),
 
-                  LogOutScreen(),
+                  LogOut(),
                 ],
 
 
