@@ -10,15 +10,23 @@
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		oG5/OGn+vw7vp/nu5DUDoZJ4nFc=
+		awWX8R6Wr6DuqpOSHNgsrjc9NxI=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
-		vKJkVIcw+LGHFnKJGwrQwCREv68=
+		BkHinAoSL9VDzwqlKZ6ds8LslyE=
 		</data>
 		<key>flutter_assets/NOTICES.Z</key>
 		<data>
-		xTv4xP8BcRwkPdryaG5ai9porwI=
+		mezWTbh0wbl/o+KruHNiggofxzM=
+		</data>
+		<key>flutter_assets/assets/images/image%2014google.png</key>
+		<data>
+		iNt11hWnsOYbkLtjCdgzMMq3qX0=
+		</data>
+		<key>flutter_assets/assets/images/image%2016Apple.png</key>
+		<data>
+		gocrhOIPmWufyuI5kUllHbBiSxo=
 		</data>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.otf</key>
 		<data>
@@ -30,11 +38,63 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		JeiZwQfDHwANa4qz4xE8Rn5R4bA=
+		5dkkAd0cSsMYP6fjn6gf5KZemGc=
 		</data>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
 		P7bb/oR3EhwqCIH1M6LyTuBIWYU=
+		</data>
+		<key>flutter_assets/packages/ubuntu_font_flutter/Ubuntu-B.ttf</key>
+		<data>
+		DRqLOaHO112KbpPtpWo5bDJJ3B0=
+		</data>
+		<key>flutter_assets/packages/ubuntu_font_flutter/Ubuntu-BI.ttf</key>
+		<data>
+		zbzMf04WZyyTZ6+c9fxWuRtoKks=
+		</data>
+		<key>flutter_assets/packages/ubuntu_font_flutter/Ubuntu-C.ttf</key>
+		<data>
+		iQm7e89DwEKd8qsH6lEQQJpfOeA=
+		</data>
+		<key>flutter_assets/packages/ubuntu_font_flutter/Ubuntu-L.ttf</key>
+		<data>
+		ol/hFvasS27+MY47yKnOO1iCRBI=
+		</data>
+		<key>flutter_assets/packages/ubuntu_font_flutter/Ubuntu-LI.ttf</key>
+		<data>
+		2dKdukCcR4T9KrUBQSgoMpUK8uc=
+		</data>
+		<key>flutter_assets/packages/ubuntu_font_flutter/Ubuntu-M.ttf</key>
+		<data>
+		9o0eP+hpd/eCwnspkgkdaMsH740=
+		</data>
+		<key>flutter_assets/packages/ubuntu_font_flutter/Ubuntu-MI.ttf</key>
+		<data>
+		x/hJM/AR5fE2MZCMDSPDu/B9H+Y=
+		</data>
+		<key>flutter_assets/packages/ubuntu_font_flutter/Ubuntu-R.ttf</key>
+		<data>
+		7zK6LFb8uMblqOf1eYWovgFIRSQ=
+		</data>
+		<key>flutter_assets/packages/ubuntu_font_flutter/Ubuntu-RI.ttf</key>
+		<data>
+		X9sDfXD9GzWl7Uk++wLp4VhDKo0=
+		</data>
+		<key>flutter_assets/packages/ubuntu_font_flutter/UbuntuMono-B.ttf</key>
+		<data>
+		6tfSVVxqgfdNVyRHJW8N5zaO8nE=
+		</data>
+		<key>flutter_assets/packages/ubuntu_font_flutter/UbuntuMono-BI.ttf</key>
+		<data>
+		ECiwltJ5DYd/5iakvp9njOVRIgU=
+		</data>
+		<key>flutter_assets/packages/ubuntu_font_flutter/UbuntuMono-R.ttf</key>
+		<data>
+		9L/XTC0Q6ler4ff6I/MD5odXdKs=
+		</data>
+		<key>flutter_assets/packages/ubuntu_font_flutter/UbuntuMono-RI.ttf</key>
+		<data>
+		5PUOBSlNRVqUbLhoLiEOaP3PXLM=
 		</data>
 		<key>flutter_assets/shaders/ink_sparkle.frag</key>
 		<data>
@@ -51,21 +111,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Sps95+7JukayebvM0TLjL1LW1VXXndpKp/O8tOm9ZR8=
+			d/Yvf/a2Ok+VF7xcwaO6L6HMJAVlt7KpNc/hSOxIPiI=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zX4DZFvESy3Ue3y2JvUcTsv1Whl6t3JBYotHrBZfviE=
+			MXV+l4mfFntmgLVx4fQBOuMQcyla3BK//idmXBS7Mws=
 			</data>
 		</dict>
 		<key>flutter_assets/NOTICES.Z</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cFYWQ+t+cN5QBkoNHcEHdDj70uBENdQC3V0Bz7yleBA=
+			XsAjtBidTgq19/proFIl1REb2BBUDFl8pezdrSfozVc=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/image%2014google.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JxvQQkaBWOzcTbQIfIarpwikkl3tbIQyyEdd8kr8llY=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/image%2016Apple.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			udTJhpaAS4xKSK/O5SvYywNJb3usxf3Kljo4GngmiuA=
 			</data>
 		</dict>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.otf</key>
@@ -86,7 +160,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			12KfHUct0Vd3RixnO5gqKpGSZdfwXGPYEPB53IZBpic=
+			fau/Ox83T4xs/VgBRUiYemigKFi4kfuCb/xc0ymoHC0=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
@@ -94,6 +168,97 @@
 			<key>hash2</key>
 			<data>
 			x6NX+tjyECiQtyzbbjyY8U2zoZ7GDbJtE+T+k/dzgI0=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/ubuntu_font_flutter/Ubuntu-B.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yQ5inpMvdokJvc4UgczSWdiv8UkKS8HPlNVBNJIxczY=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/ubuntu_font_flutter/Ubuntu-BI.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			LDPeNNUQZaXla65eHHwTzRKCaLJlaYOKONsDjmrJcj0=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/ubuntu_font_flutter/Ubuntu-C.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bB9o0uhYMv6unqMNKmwOpx6mI+jqNCvwCkFPZJPM9yA=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/ubuntu_font_flutter/Ubuntu-L.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			t+ybn3zyk+y8gy6ZjKSoAq3s63fGYcQ+vSProa3D5YQ=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/ubuntu_font_flutter/Ubuntu-LI.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xcLYhAAJMCQrMFLdE/O9JQ/lPoW291BGpT6S3T3itRw=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/ubuntu_font_flutter/Ubuntu-M.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6AGghnKVNnAAxt08M3Yirkqv+FeG3b+9uYXOd0/jzWI=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/ubuntu_font_flutter/Ubuntu-MI.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gQApKB2gHVSKkUiZ7GQ8SuVO6aFl389zHxqoVRsiY1A=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/ubuntu_font_flutter/Ubuntu-R.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UsGvpImue/2JOvbN2fGvJYAFcDYARJ5w0zjKq8/1B+U=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/ubuntu_font_flutter/Ubuntu-RI.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BiZkfxHZyRH5NHFdEGC1kHRIhyJGAauusirI9YK1cRg=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/ubuntu_font_flutter/UbuntuMono-B.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			EfFcOmu9mYqGlf3vs0dZMcN4mqA111RvLv546Ds1L2s=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/ubuntu_font_flutter/UbuntuMono-BI.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vSVXhLuHtcQVE6EqhvD5zwYbzk6CVtO/5yNGEQAuj0g=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/ubuntu_font_flutter/UbuntuMono-R.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			s13Z0hMdXYOpuH/prSLGKI+j0XaI1DMCwU2imBJBfWM=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/ubuntu_font_flutter/UbuntuMono-RI.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lgsrwobC/31JBzMDhYxl4fyQE8F6lxthEjsCw5RU73U=
 			</data>
 		</dict>
 		<key>flutter_assets/shaders/ink_sparkle.frag</key>

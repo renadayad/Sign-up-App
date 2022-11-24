@@ -3,8 +3,6 @@ import 'package:get/get.dart';
 
 import '../../../../logic/controllers/auth_controllers.dart';
 
-
-
 class LogOut extends StatelessWidget {
   LogOut({super.key});
 
@@ -68,8 +66,6 @@ class LogOut extends StatelessWidget {
                   color: Colors.black26,
                 ),
               ),
-
-
             ],
           ),
         ),
