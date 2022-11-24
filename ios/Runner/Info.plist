@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
-	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<string>com.googleusercontent.apps.124852362224-p4snnff6m9e0ms3lprjrm1r203vp2ooc</string>
 	<key>CFBundleDisplayName</key>
 	<string>Signup</string>
 	<key>CFBundleExecutable</key>
@@ -43,9 +43,26 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
-	<key>CADisableMinimumFrameDurationOnPhone</key>
+<key>CFBundleURLTypes</key>
+<array>
+	<dict>
+		<key>CFBundleTypeRole</key>
+		<string>Editor</string>
+		<key>CFBundleURLSchemes</key>
+		<array>
+			<!-- TODO Replace this value: -->
+			<!-- Copied from GoogleService-Info.plist key REVERSED_CLIENT_ID -->
+			<string>com.googleusercontent.apps.124852362224-p4snnff6m9e0ms3lprjrm1r203vp2ooc</string>
+		</array>
+	</dict>
+</array>
+
+
+
+	<!-- <key>CADisableMinimumFrameDurationOnPhone</key>
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
-	<true/>
+	<true/> -->
+	
 </dict>
 </plist>
