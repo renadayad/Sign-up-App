@@ -1,7 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_state_manager/get_state_manager.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:signup/routes/routes.dart';
@@ -61,9 +60,37 @@ class AuthController extends GetxController {
           backgroundColor: Colors.green,
           colorText: Colors.white);
     } catch (error) {
-      Get.snackbar('Error!', error.toString(),
-          snackPosition: SnackPosition.TOP,
-          backgroundColor: Colors.red,
+      Get.snackbar(
+        'Error!',
+        error.toString(),
+        snackPosition: SnackPosition.TOP,
+        backgroundColor: Colors.red,
+      );
+    }
+  }
+
+  void resetPassword(String email) async {
+    try {
+      await auth.sendPasswordResetEmail(email: email);
+      update();
+      Get.back();
+    } on FirebaseAuthException catch (e) {
+      String title = e.code.replaceAll(RegExp('-'), ' ').capitalize!;
+      String message = '';
+      if (e.code == 'user-not-found') {
+        message = "No user found for that $email";
+      } else {
+        message = e.message.toString();
+      }
+
+      Get.snackbar(title, message,
+          snackPosition: SnackPosition.BOTTOM,
+          backgroundColor: Colors.grey,
+          colorText: Colors.white);
+    } catch (e) {
+      Get.snackbar("Error!", e.toString(),
+          snackPosition: SnackPosition.BOTTOM,
+          backgroundColor: Colors.grey,
           colorText: Colors.white);
     }
   }
@@ -85,11 +112,29 @@ class AuthController extends GetxController {
       update();
       authBox.write("auth", isSignedIn);
 
-      Get.toNamed(Routes.signScreen);
+      Get.offNamed(Routes.settingScreen);
     } catch (error) {
       Get.snackbar('Error!', error.toString(),
           snackPosition: SnackPosition.TOP,
           backgroundColor: Colors.red,
+          colorText: Colors.white);
+    }
+  }
+
+  void signOut() async {
+    try {
+      await auth.signOut();
+      await googleSign.signOut();
+      displayUserName.value = "";
+      displayUserPhoto.value = '';
+      isSignedIn = false;
+      authBox.remove("auth");
+      update();
+      Get.offNamed(Routes.loginScreen);
+    } catch (e) {
+      Get.snackbar("Error!", e.toString(),
+          snackPosition: SnackPosition.BOTTOM,
+          backgroundColor: Colors.grey,
           colorText: Colors.white);
     }
   }

@@ -1,7 +1,8 @@
 import 'package:get/route_manager.dart';
 import 'package:signup/logic/bindings/auth_biniding.dart';
-import 'package:signup/view/screens/auth/forgot_password.dart';
+import 'package:signup/view/screens/auth/forgot_password_screen.dart';
 import 'package:signup/view/screens/auth/login_screen.dart';
+import 'package:signup/view/screens/auth/setting/setting.dart';
 import 'package:signup/view/screens/auth/signup_screen.dart';
 
 class AppRoutes {
@@ -18,8 +19,12 @@ class AppRoutes {
         binding: AuthBinding()),
     GetPage(
         name: Routes.forgotpasswordScreen,
-        page: () => ForgotPassword_Screen(),
-        binding: AuthBinding())
+        page: () => ForgotPasswordScreen(),
+        binding: AuthBinding()),
+    GetPage(
+        name: Routes.settingScreen,
+        page: () => SettingsScreen(),
+        binding: AuthBinding()),
   ];
 }
 
@@ -27,4 +32,5 @@ class Routes {
   static const loginScreen = '/loginScreen';
   static const signScreen = '/signScreen';
   static const forgotpasswordScreen = '/forgotpasswordScreen';
+  static const settingScreen = '/settingScreen';
 }
